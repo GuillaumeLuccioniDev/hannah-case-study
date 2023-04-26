@@ -1,5 +1,5 @@
 export const paths = {
   root: "/",
-  profile: "profile",
-  about: "about",
+  profile: "/profile",
+  about: "/about",
 };
