@@ -18,7 +18,7 @@ export function BaseFinancialCard(props: ComponentProps<typeof Card>) {
           outline: 0;
         }
       `}
-      tabindex="0" // allow element to have focus
+      tabIndex={0} // allow element to have focus
       {...props}
     />
   );

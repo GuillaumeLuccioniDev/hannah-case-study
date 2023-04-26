@@ -4,7 +4,7 @@ import { UserInformation } from "./UserInformation";
 
 export function Profile() {
   return (
-    <Stack gap={3}>
+    <Stack gap={5}>
       <UserInformation />
       <FinancialPlans />
     </Stack>
