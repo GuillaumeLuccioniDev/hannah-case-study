@@ -17,7 +17,7 @@ yarn start
 # Technical stack
 
 - vite + react + typescript
-- axios + react-query for data fecthing + cache
+- axios + react-query for data fetching + cache
 - emotion for css in js
 - bootstrap
 - react-router-dom
