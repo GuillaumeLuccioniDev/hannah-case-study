@@ -2,23 +2,40 @@
   "legalForms": [
     {
       "id": 1,
-      "name": "Company"
+      "name": "Company",
+      "color": "blue"
     },
     {
       "id": 2,
-      "name": "Freelance"
+      "name": "Freelance",
+      "color": "green"
     },
     {
       "id": 3,
-      "name": "ASBL"
+      "name": "ASBL",
+      "color": "purple"
     }
   ],
   "financialPlans": [
     {
-      "id": 1,
-      "legalFormId": 1,
       "name": "HON 1261",
-      "createdAt": "2023-04-27T06:59:26.913Z"
+      "legalFormId": 3,
+      "createdAt": "2023-04-26T10:37:52.352Z",
+      "id": 1,
+      "updatedAt": "2023-04-27T10:48:59.049Z"
+    },
+    {
+      "name": "HON 1262",
+      "legalFormId": 1,
+      "createdAt": "2023-04-27T10:48:30.473Z",
+      "id": 2
+    },
+    {
+      "name": "HON 1263",
+      "legalFormId": 2,
+      "createdAt": "2023-04-27T10:48:46.280Z",
+      "id": 3,
+      "updatedAt": "2023-04-27T10:49:07.306Z"
     }
   ],
   "users": [
@@ -27,7 +44,7 @@
       "firstName": "John",
       "lastName": "Doe",
       "email": "john.doe@example.com",
-      "createdAt": "2023-04-27T06:59:26.913Z"
+      "createdAt": "2023-04-26T06:59:26.913Z"
     }
   ]
 }
