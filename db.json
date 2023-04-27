@@ -1,0 +1,33 @@
+{
+  "legalForms": [
+    {
+      "id": 1,
+      "name": "Company"
+    },
+    {
+      "id": 2,
+      "name": "Freelance"
+    },
+    {
+      "id": 3,
+      "name": "ASBL"
+    }
+  ],
+  "financialPlans": [
+    {
+      "id": 1,
+      "legalFormId": 1,
+      "name": "HON 1261",
+      "createdAt": "2023-04-27T06:59:26.913Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "createdAt": "2023-04-27T06:59:26.913Z"
+    }
+  ]
+}
