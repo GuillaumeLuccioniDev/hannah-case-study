@@ -53,14 +53,6 @@ Tablet view:
 
 ## Mobile
 
-Mobile view:
-
-![mobile](/screenshots/mobile_1.png)
-
-Side menu:
-
-![mobile](/screenshots/mobile_2.png)
-
-Modal:
-
-![mobile](/screenshots/mobile_3.png)
+| Mobile view                          | Side menu                            | Modal                                |
+| ------------------------------------ | ------------------------------------ | ------------------------------------ |
+| ![mobile](/screenshots/mobile_1.png) | ![mobile](/screenshots/mobile_2.png) | ![mobile](/screenshots/mobile_3.png) |
