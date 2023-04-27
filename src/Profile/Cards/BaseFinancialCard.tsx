@@ -6,7 +6,7 @@ export function BaseFinancialCard(props: ComponentProps<typeof Card>) {
   return (
     <Card
       css={css`
-        height: 150px;
+        height: 180px;
         cursor: pointer;
 
         &:hover {

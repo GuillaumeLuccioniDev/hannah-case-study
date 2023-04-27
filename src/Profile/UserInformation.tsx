@@ -1,15 +1,20 @@
-import * as dayjs from "dayjs";
 import { Description } from "../shared/components";
 import { Stack } from "react-bootstrap";
+import { UserDto } from "../shared/api";
+import { formatDate } from "../shared/utils";
 
-export function UserInformation() {
+export interface UserInformationProps {
+  user: UserDto;
+}
+
+export function UserInformation({ user }: UserInformationProps) {
   return (
     <div>
       <h2 className="pb-2 border-bottom">Account details</h2>
       <Stack gap={1}>
-        <Description title="Name">John Doe</Description>
-        <Description title="E-mail">john.doe@example.com</Description>
-        <Description title="Account creation date">{dayjs().format("DD/MM/YYYY")}</Description>
+        <Description title="Name">{`${user.firstName} ${user.lastName}`}</Description>
+        <Description title="E-mail">{user.email}</Description>
+        <Description title="Account creation date">{formatDate(user.createdAt)}</Description>
       </Stack>
     </div>
   );
