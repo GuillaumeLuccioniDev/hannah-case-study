@@ -4,9 +4,11 @@ import { paths } from "./shared/paths";
 
 export function Header() {
   return (
-    <Navbar bg="light" expand="sm" className="mb-3">
+    <Navbar bg="dark" variant="dark" expand="sm" className="mb-3">
       <Container fluid>
-        <Navbar.Brand href="#">Hannah Accounting</Navbar.Brand>
+        <LinkContainer to={paths.root}>
+          <Navbar.Brand>Hannah Accounting</Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle />
         <Navbar.Offcanvas placement="end">
           <Offcanvas.Header closeButton>
